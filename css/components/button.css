@@ -6,15 +6,13 @@
     padding-left: 20px;
     padding-right: 20px;
     box-shadow: 5px 5px #000;
-    margin-right: 0px;
     transition: transform 100ms linear;
-    margin-left: 118px;
     text-decoration: none;
     color: #F2E9E1;
 }
 
 
-#button:hover{
+.button:hover{
     background: #7d9725;
     transform: scale(1.08);
 }
