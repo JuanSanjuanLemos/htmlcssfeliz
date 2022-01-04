@@ -1,0 +1,12 @@
+.main_box{
+    display: inline-block;
+    text-align: center;
+    background-color: #3A4042;
+    margin-top: 116px;
+    margin-left: 91px;
+    box-shadow: 10px 10px 0px #000;
+}
+
+.main_box .title{
+    margin-bottom: 28px;
+}

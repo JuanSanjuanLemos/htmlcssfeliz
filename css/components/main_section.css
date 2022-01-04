@@ -1,0 +1,8 @@
+.main_section{
+    display: inline-block;
+    background-image: url("../../assets/img/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 807px;
+    width: 100%;
+}
