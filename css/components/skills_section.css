@@ -2,16 +2,16 @@
     background-color: #859b3d;
     padding-top: 50px;
     border-bottom: 10px solid #A49C94;
-    height: 730px;
+    height: 500px;
+    text-align: center;
 }
 
 .skills_section .skills_group{
-    margin-left: 260px;
-    margin-right: 220px;
-    margin-top: 150px;
-    height: 500px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 800px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
 } 
-
-.skills{
-    display: flex;
-}

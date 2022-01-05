@@ -1,0 +1,18 @@
+.skills{
+    display: inline-flex;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.skills .skills_title{
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    color: #F2E9E1;
+    margin-bottom: 16px;
+}
+
+.skills .skill_and_progress{
+    margin-left: 25px;
+    text-align: left;
+}

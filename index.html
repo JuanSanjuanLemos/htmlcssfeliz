@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/components/main_box.css">
         <link rel="stylesheet" href="css/components/main_section.css">
         <link rel="stylesheet" href="css/components/progress_bar.css">
+        <link rel="stylesheet" href="css/components/skills.css">
         <link rel="stylesheet" href="css/components/skills_section.css">
         <link rel="stylesheet" href="css/components/subtitle.css">
         <link rel="stylesheet" href="css/components/title.css">
@@ -51,25 +52,43 @@
 
 
         <section class="skills_section">
-            <h1 id="skills_title" class="title">Skills</h1>
+            <h1 class="title -skills_title">Skills</h1>
             <div class="skills_group">
-                <div class="skills">
+                <article class="skills">
                     <img src="assets/img/ico_html5.png" alt="icone html">
-                    HTML
-                    <progress class="progress_bar" value="70" max="100" style="width: 210px; height:20px">70 %</progress>
-                </div>
+                    <div class="skill_and_progress">
+                        <h2 class="skills_title">HTML</h2>
+                        <progress class="progress_bar" value="70" max="100" 
+                        style="width: 210px; height: 30px; border: 5px solid #000";>70 %</progress>
+                    </div>
+                </article>
 
-                <div class="skills">
+                <article class="skills">
                     <img src="assets/img/ico_css3.png" alt="icone css">
-                    CSS
-                    <progress class="progress_bar" value="70" max="100" style="width: 210px; height:20px">70 %</progress>
-                </div>
+                    <div class="skill_and_progress">
+                        <h2 class="skills_title">CSS</h2>
+                        <progress class="progress_bar" value="70" max="100" 
+                        style="width: 210px; height: 30px; border: 5px solid #000">70 %</progress>
+                    </div>
+                </article>
 
-                <div class="skills">
+                <article class="skills">
                     <img src="assets/img/ico_js.png" alt="icone js">
-                    JavaScript
-                    <progress class="progress_bar" value="20" max="100" style="width: 210px; height:20px">20 %</progress>
-                </div>
+                    <div class="skill_and_progress">
+                    <h2 class="skills_title">JavaScript</h2>
+                        <progress class="progress_bar" value="20" max="100" 
+                        style="width: 210px; height: 30px; border: 5px solid #000">20 %</progress>
+                    </div>
+                </article>
+
+                <article class="skills">
+                    <img src="assets/img/ico_react.png" alt="icone react">
+                    <div class="skill_and_progress">
+                    <h2 class="skills_title">React</h2>
+                        <progress class="progress_bar" value="0" max="100" 
+                        style="width: 210px; height: 30px; border: 5px solid #000">0 %</progress>
+                    </div>
+                </article>
                 
             </div>
         </section>
