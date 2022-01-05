@@ -6,12 +6,3 @@
     text-align: center;
 }
 
-.section .skills_group{
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 800px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 60px;
-} 

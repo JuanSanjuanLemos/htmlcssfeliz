@@ -1,7 +1,5 @@
 .progress-bar{
-    width: 210px;
-    height: 40px;
-    box-sizing: border-box;
+    height: 35px;
     border: 5px solid #000
 }
 
