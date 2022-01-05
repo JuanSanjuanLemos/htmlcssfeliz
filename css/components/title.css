@@ -1,7 +1,16 @@
 .title{
     color: #859b3d;
     font-size: 40px;
+    line-height: 40px;
     font-family: "Press Start 2P";
     margin-top: 42px;
     text-shadow:  4px 4px 0px #000;
+}
+
+#skills_title{
+    color:#F2E9E1;
+    text-shadow: none;
+    margin-top: 0px;
+    margin-right: 625px;
+    margin-left: 575px;
 }

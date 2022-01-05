@@ -1,0 +1,20 @@
+
+::-webkit-progress-value {
+    background-color: #A49C94;
+  }
+
+::-webkit-progress-bar {
+    background-color: #F2E9E1;
+}
+
+progress{
+    /* Altera a cor do background no Firefox e navegadores da Microsoft */
+    background: #F2E9E1;
+  
+    /* É necessário alterar o valor para none */
+    -webkit-appearance: none;
+}
+
+::-ms-fill {
+    background-color: #A49C94;
+}

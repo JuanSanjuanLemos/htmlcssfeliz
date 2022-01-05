@@ -1,0 +1,17 @@
+.skills_section{
+    background-color: #859b3d;
+    padding-top: 50px;
+    border-bottom: 10px solid #A49C94;
+    height: 730px;
+}
+
+.skills_section .skills_group{
+    margin-left: 260px;
+    margin-right: 220px;
+    margin-top: 150px;
+    height: 500px;
+} 
+
+.skills{
+    display: flex;
+}
