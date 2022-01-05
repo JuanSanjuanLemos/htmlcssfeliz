@@ -1,12 +1,12 @@
-.skills_section{
+.section{
     background-color: #859b3d;
     padding-top: 50px;
+    padding-bottom: 100px;
     border-bottom: 10px solid #A49C94;
-    height: 500px;
     text-align: center;
 }
 
-.skills_section .skills_group{
+.section .skills_group{
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
