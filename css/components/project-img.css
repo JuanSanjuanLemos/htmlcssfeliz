@@ -1,0 +1,14 @@
+.project-img{
+    height: 280px;
+    width: 280px;
+    background-color: #A49C94;
+    box-shadow: 10px 10px 0px #FFFFFF;
+}
+
+.project-img.-variant-one{
+    background-color: #CBE86B;
+}
+
+.project-img.-variant-two{
+    background-color:#4C5B84;
+}
