@@ -6,3 +6,7 @@
     text-align: center;
 }
 
+.section.-projects{
+    background-color: #000;
+    border-bottom: 10px solid #CBE86B;
+}

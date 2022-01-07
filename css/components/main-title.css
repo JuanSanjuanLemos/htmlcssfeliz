@@ -7,10 +7,10 @@
     text-shadow:  4px 4px 0px #000;
 }
 
-.main-title.-skills_title{
+.main-title.-standard-title{
     color:#F2E9E1;
     text-shadow: none;
     margin-top: 0px;
-    margin-right: 625px;
-    margin-left: 575px;
+    margin-right: auto;
+    margin-left: auto;
 }
