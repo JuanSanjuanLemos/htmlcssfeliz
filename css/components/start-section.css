@@ -1,4 +1,4 @@
-.main_section{
+.start-section{
     box-sizing: border-box;
     background-image: url("../../assets/img/fundo.png");
     background-size: 100%;
@@ -13,15 +13,15 @@
     flex-direction: column;
 }
 
-.main_section .wrapper{
+.start-section .wrapper{
     width: 640px;
 }
 
-.main_section .main_box{
+.start-section .main_box{
     margin-bottom: 40px;
 }
 
-.main_section .navigation{
+.start-section .navigation{
     display: flex;
     justify-content: space-around;
 }

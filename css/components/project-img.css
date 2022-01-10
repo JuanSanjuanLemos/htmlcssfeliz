@@ -1,14 +1,22 @@
 .project-img{
+    display: flex;
     height: 280px;
     width: 280px;
+    justify-content: center;
+    align-items: center;
     background-color: #A49C94;
     box-shadow: 10px 10px 0px #FFFFFF;
 }
 
-.project-img.-variant-one{
+.project-img.-green{
     background-color: #CBE86B;
 }
 
-.project-img.-variant-two{
+.project-img.-purple{
     background-color:#4C5B84;
+}
+
+.project-img .avatar{
+    width: 260px;
+    height: 260px;
 }

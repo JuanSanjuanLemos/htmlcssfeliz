@@ -1,4 +1,4 @@
-.header{
+.initial-header{
     display: flex;
     justify-content: space-between;
     background-color: #a49c94;
@@ -6,7 +6,7 @@
     padding: 10px 20px;
 }
 
-.header .avatar{
+.initial-header .avatar{
     width: 60px;
     height: 60px;
 }

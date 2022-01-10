@@ -8,17 +8,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/components/action.css">
-        <link rel="stylesheet" href="css/components/button.css">
-        <link rel="stylesheet" href="css/components/header.css">
+        <link rel="stylesheet" href="css/components/page-action.css">
+        <link rel="stylesheet" href="css/components/main-button.css">
+        <link rel="stylesheet" href="css/components/initial-header.css">
         <link rel="stylesheet" href="css/components/logo.css">
         <link rel="stylesheet" href="css/components/main_box.css">
-        <link rel="stylesheet" href="css/components/main_section.css">
+        <link rel="stylesheet" href="css/components/start-section.css">
         <link rel="stylesheet" href="css/components/progress-bar.css">
         <link rel="stylesheet" href="css/components/project-img.css">
-        <link rel="stylesheet" href="css/components/project-list.css">
+        <link rel="stylesheet" href="css/components/wrapper-project.css">
         <link rel="stylesheet" href="css/components/skill-tec.css">
-        <link rel="stylesheet" href="css/components/section.css">
+        <link rel="stylesheet" href="css/components/main-section.css">
         <link rel="stylesheet" href="css/components/main-subtitle.css">
         <link rel="stylesheet" href="css/components/main-title.css">
         <link rel="stylesheet" href="css/components/wrapper-skill.css">
@@ -27,34 +27,34 @@
     </head>
 
     <body>
-        <header class="header">
+        <header class="initial-header">
             <img class="avatar" src="assets/img/logo_black.gif" alt="Avatar black power">
 
             <nav>
-                <a class="action" href="" lang="en">Skills</a>
-                <a class="action" href="">Projetos</a>
-                <a class="action" href="">Sobre</a>
-                <a class="action" href="">Contatos</a>
-                <a class="button" href="" lang="en">Download CV</a>
+                <a class="page-action" href="" lang="en">Skills</a>
+                <a class="page-action" href="">Projetos</a>
+                <a class="page-action" href="">Sobre</a>
+                <a class="page-action" href="">Contatos</a>
+                <a class="main-button" href="" lang="en">Download CV</a>
             </nav>
         </header>
 
 
-        <section class="main_section">
+        <section class="start-section">
             <div class="wrapper">
                 <div class="main_box">
                     <h1 class="main-title">Juan Lemos</h1>
                     <h2 class="main-subtitle">FrontEnd Developer</h2>
                 </div>
                 <div class="navigation">
-                    <a class="button" lang="en" href="">Download CV</a>
-                    <a class="button" href="">Contatos</a>
+                    <a class="main-button" lang="en" href="">Download CV</a>
+                    <a class="main-button" href="">Contatos</a>
                 </div>
             </div>
         </section>
 
 
-        <section class="section">
+        <section class="main-section">
             <h1 class="main-title -standard-title">Skills</h1>
             <div class="wrapper-skill">
                 <article class="skill-tec">
@@ -88,17 +88,23 @@
                 
             </div>
         </section>
-        <section class="section -projects">
+        <section class="main-section -bgBlack">
             <h1 class="main-title -standard-title">Projetos</h1>
-            <div class="project-list">
-                <a href="https://juansanjuanlemos.github.io/htmlcssfeliz/">
-                    <img class="project-img" src="assets/img/logo_black.gif" alt="avatar black">
-                </a>
-                <img class="project-img -variant-one" src="assets/img/logo-collabcode.png" alt="logo collabcode">
-                <img class="project-img -variant-two" src="assets/img/logo-firedlabs.png" alt="logo firedkabs">
+            <div class="wrapper-project">
+                <figure class="project-img">
+                    <a href="https://juansanjuanlemos.github.io/htmlcssfeliz/">
+                        <img class="avatar"src="assets/img/logo_black.gif" alt="avatar black">
+                    </a>
+                </figure>
+                <figure class="project-img -green">
+                    <img src="assets/img/logo-collabcode.png" alt="logo collabcode">
+                </figure>
+                <figure class="project-img -purple">
+                    <img src="assets/img/logo-firedlabs.png" alt="logo firedlabs">
+                </figure>
             </div>
         </section>
-        <section class="section -sobre">
+        <section class="main-section -bgCream">
             <h1 class="main-title -standard-title">Sobre</h1>
         </section>
     </body>
