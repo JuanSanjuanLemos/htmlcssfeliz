@@ -16,3 +16,14 @@
     background: #7d9725;
     transform: scale(1.08);
 }
+
+.main-button.-submit{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+}
+
+.main-button.-submit:hover{
+    background: #7d9725;
+    transform: scale(1.04);
+}
