@@ -48,8 +48,8 @@
 }
 
 .main-carousel .elements{
-    transform: translateX(300px);
     display: flex;
+    transition: transform 100ms ease-in-out;
     justify-content: space-between;
     width: 100%;
 }
