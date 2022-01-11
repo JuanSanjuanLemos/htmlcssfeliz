@@ -20,11 +20,14 @@
         <link rel="stylesheet" href="css/components/skill-tec.css">
         <link rel="stylesheet" href="css/components/main-button.css">
         <link rel="stylesheet" href="css/components/main-carousel.css">
+        <link rel="stylesheet" href="css/components/main-footer.css">
+        <link rel="stylesheet" href="css/components/main-form.css">
         <link rel="stylesheet" href="css/components/main-section.css">
         <link rel="stylesheet" href="css/components/main-subtitle.css">
         <link rel="stylesheet" href="css/components/main-description.css">
         <link rel="stylesheet" href="css/components/main-title.css">
         <link rel="stylesheet" href="css/components/node-card.css">
+        <link rel="stylesheet" href="css/components/wrapper-input.css">
         <link rel="stylesheet" href="css/components/wrapper-skill.css">
         
 
@@ -156,6 +159,31 @@
             </section>
             <p class="main-description">Hoje, Técnico em Informática pelo ifnmg e cursando SI, Juan vem estudando programação web para entrar no mercado nos próximos anos. Participou de alguns projetos durante o seu curso, um deles foi o projeto de Capacitação em informática de docentes de escolas municipais. Quando não está estudando, Juan gosta de passar o tempo jogando com os amigos.</p>
         </section>
+
+        <section class="main-section -bgGray -bdNone">
+            <h1 class="main-title -standard-title">Contatos</h1>
+            <form class="main-form" action="" method="post">
+                <div class="wrapper-input">
+                    <label for="name">Nome</label>
+                    <input class="main-input" type="text" name="name">
+                </div>
+                <div class="wrapper-input">
+                    <label for="email">Email</label>
+                    <input class="main-input" type="email" name="email" required pattern="+@+">
+                </div>
+                <div class="wrapper-input">
+                    <label for="msg">Mensagem</label>
+                    <input class="main-input -msg" type="text" name="msg">
+                </div>
+                <input class="main-button -submit" type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <footer class="main-footer">
+            <img src="assets/img/logo-twitter.png" alt="logo twitter">
+            <img src="assets/img/logo-youtube.png" alt="logo youtube">
+            <img src="assets/img/logo-discord.png" alt="logog discord">
+        </footer>
         <script src="js/components/main-carousel.js"></script>
     </body>
 </html>
