@@ -1,7 +1,7 @@
 .main-section{
     background-color: #859b3d;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
     border-bottom: 10px solid #A49C94;
     text-align: center;
 }
@@ -12,10 +12,16 @@
 .main-section.-bgCream{
     background-color: #A49C94;
 }
+.main-section.-bgGray{
+    background-color: #3A4042;
+}
+
 .main-section.-bdGreen{
     border-bottom: 10px solid #CBE86B;
 }
-
 .main-section.-bdBlack{
     border-bottom: 10px solid #000;
+}
+.main-section.-bdNone{
+    border-bottom: none;
 }
