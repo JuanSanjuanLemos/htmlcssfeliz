@@ -1,6 +1,6 @@
 .wrapper-project{
     display: flex;
-    justify-content: space-between;
-    margin-right:140px;
+    justify-content: space-around;
+    margin-right: 140px;
     margin-left: 140px;
 }
