@@ -165,15 +165,15 @@
             <form class="main-form" action="" method="post">
                 <div class="wrapper-input">
                     <label for="name">Nome</label>
-                    <input class="main-input" type="text" name="name">
+                    <input id="name" class="main-input" type="text" name="name">
                 </div>
                 <div class="wrapper-input">
                     <label for="email">Email</label>
-                    <input class="main-input" type="email" name="email" required pattern="+@+">
+                    <input id="email" class="main-input" type="email" name="email" required pattern="+@+">
                 </div>
                 <div class="wrapper-input">
-                    <label for="msg">Mensagem</label>
-                    <input class="main-input -msg" type="text" name="msg">
+                    <label for="message">Mensagem</label>
+                    <textarea class="main-input -msg" id="message" cols="30" rows="10" name="msg"></textarea>
                 </div>
                 <input class="main-button -submit" type="submit" value="Enviar">
             </form>
