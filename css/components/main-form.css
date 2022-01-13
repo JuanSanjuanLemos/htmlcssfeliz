@@ -1,7 +1,12 @@
 .main-form{
+    background-color: #3A4042;
     font-weight: 300;
     font-size: 30px;
     line-height: 1.3;
     font-family: "Fira Code";
-    color: #F2E9E1
+    color: #F2E9E1;
+    padding: 4% 2%;
+}
+.main-form .main-title.-standard-title{
+    width: 300px;
 }
