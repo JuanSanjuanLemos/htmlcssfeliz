@@ -12,16 +12,10 @@
 .main-section.-bgCream{
     background-color: #A49C94;
 }
-.main-section.-bgGray{
-    background-color: #3A4042;
-}
 
 .main-section.-bdGreen{
     border-bottom: 10px solid #CBE86B;
 }
 .main-section.-bdBlack{
     border-bottom: 10px solid #000;
-}
-.main-section.-bdNone{
-    border-bottom: none;
 }
