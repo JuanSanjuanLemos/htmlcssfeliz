@@ -1,7 +1,7 @@
 .start-section{
     box-sizing: border-box;
     background-image: url("../../assets/img/fundo.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
     background-position: 25% 10%;
